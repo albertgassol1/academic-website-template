@@ -5,15 +5,13 @@ sitemap: false
 permalink: /
 ---
 
-### Welcome!
+### About me
 
-Theoretical physics is a branch of physics that focuses on the development of mathematical models and theories to understand and explain natural phenomena.
-It plays a crucial role in our understanding of the fundamental laws of the universe and the fundamental particles that make up all matter.
-Research in theoretical physics helps us to make predictions about how the universe works and to test these predictions through experiments.
-It also helps us to understand the fundamental principles that govern the behavior of matter and energy, and to explore the limits of our current knowledge.
-Theoretical physics helps us to make progress in a wide range of fields, including cosmology, particle physics, and quantum mechanics, and it has led to many important discoveries and technological innovations.
+I'm a Computer Vision Research Intern at <a href="https://www.magicleap.com">Magic Leap</a> in Zurich since November 2023, when I finished my Master's in robotics at ETH Zurich. My research interests lie at the intersection between geometry, 3D computer vision and deep learning, exploring their potential applications in real-world robotic systems. Specially, I am fascinatedabout multi-view reconstruction, neural implicit surface representations, large-scale localization and mapping, and scene understanding, although my enthusiasm spans the entirety of the computer vision domain.
 
-<div class="container">
+I am currently looking for a PhD in 3D computer vision to futher develop my skills as a researcher and contribute to future groundbreaking work. 
+
+<!-- <div class="container">
 <div class="row">
 <center>
 <img src="{{ site.url }}{{ site.baseurl }}/images/banner.jpg" width="100%"/><br/>
@@ -22,12 +20,6 @@ Feynman R., The theory of positrons. <i>Phys. Rev.</i> (1949)
 </center>
 </div>
 </div>
-<br/>
+<br/> -->
 
-### About me
-
-I am a physicist working in the field of quantum mechanics and quantum electrodynamics.
-I received my undergraduate degree in physics from the Massachusetts Institute of Technology (MIT) in 1939 and went on to earn my PhD from Princeton University in 1942.
-After completing my doctoral studies, I worked on the Manhattan Project, where I helped develop the first atomic bombs.
-After the war, I returned to academia, holding teaching and research positions at Cornell and now the California Institute of Technology.
 

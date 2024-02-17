@@ -1,21 +1,20 @@
-- name: Dr. Richard Feynman
-  photo: headshot.jpg
-  info: Richard C. Tolman Professor, California Institute of Technology
-  email: richard@university.edu
-  github: https://github.com/
-  researchgate: https://www.researchgate.net/
-  scholar: https://scholar.google.com/citations?user=B7vSqZsAAAAJ
-  cv: cv/cv.pdf
+- name: Albert Gassol Puigjaner
+  photo: me.jpg
+  email: albertgassol1@gmail.com
+  github: https://github.com/albertgassol1
+  cv: resume.pdf
+  linkedin: https://www.linkedin.com/in/albert-gassol-puigjaner
+  # scholar: https://scholar.google.com/citations?user=B7vSqZsAAAAJ
   # Change the number below to the number of "educations" you have (up to 6)
   number_educ: 2
-  education1: "(1942) Ph.D. Physics, Princeton University"
-  education2: "(1939) B.S. Physics, Massachusetts Institute of Technology"
+  education1: "(2021-2023) M.S. Robotics, Systems and Control , ETH Zurich"
+  education2: "(2017-2021) B.S. Telecommunications Engineering, Universitat Politècnica de Catalunya"
   # education3: 
   # education4: 
   # education5: 
   # education6: 
-  education1short: (1942) Ph.D. Physics, Princeton
-  education2short: (1939) B.S. Physics, MIT
+  education1short: (2021-2023) M.S. Robotics, ETH Zurich
+  education2short: (2017-2021) B.S. Telecommunications Engineering, UPC
   # education3short: 
   # education4short: 
   # education5short: 
