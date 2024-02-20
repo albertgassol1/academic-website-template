@@ -109,6 +109,7 @@ time in the autonomous racing scenario.
 Work in progress to be submitted at a top-tier robotics conference.
 
 <!-- <a href="https://example.com" target="_blank"><button class="btn btn-success btn-sm">WEBSITE</button></a> -->
+<a href="{{ site.url }}{{ site.baseurl }}/papers/coat_mpc_pre_print.pdf" target="_blank"><button class="btn btn-danger btn-sm">PRE-PRINT</button></a> 
 <a href="https://github.com/albertgassol1/coat_mpc" target="_blank"><button class="btn btn-info btn-sm">GITHUB</button></a>
 <a href="{{ site.url }}{{ site.baseurl }}/papers/semester_project.pdf" target="_blank"><button class="btn btn-success btn-sm">THESIS</button></a> 
 
