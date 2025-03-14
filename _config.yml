@@ -18,6 +18,7 @@ contact: >
 nav_pages:
   - name: about
   - name: research
+  - name: publications
 
 include:
   - .htaccess
