@@ -23,7 +23,7 @@ years: [2024, 2025]
 
 <div class="jumbotron">
 ### Publications
-{% bibliography --query @inproceedings %}
+{% bibliography --query @article %}
 </div>
 
 <!-- <div class="jumbotron">

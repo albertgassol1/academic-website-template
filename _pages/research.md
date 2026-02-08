@@ -34,6 +34,21 @@ iframe {
 
 <div class="jumbotron">
 <div class="col-md-12 col-sm-12">
+<h4>Relationship-Aware Hierarchical 3D Scene Graph</h4>
+<img src="{{ site.url }}{{ site.baseurl }}/images/reasoninggraph.png" width="100%" style="max-width:1000px"/>
+
+<!-- Representing and understanding 3D environments in a structured manner is crucial for autonomous agents to navigate and reason about their surroundings. While traditional Simultaneous Localization and Mapping (SLAM) methods generate metric reconstructions and can be extended to metric-semantic mapping, they lack a higher level of abstraction and relational reasoning. To address this gap, 3D scene graphs have emerged as a powerful representation for capturing hierarchical structures and object relationships. In this work, we propose an enhanced hierarchical 3D scene graph that integrates open-vocabulary features across multiple abstraction levels and supports object-relational reasoning. Our approach leverages a Vision Language Model (VLM) to infer semantic relationships. Notably, we introduce a task reasoning module that combines Large Language Models (LLM) and a VLM to interpret the scene graph’s semantic and relational information, enabling agents to reason about tasks and interact with their environment more intelligently. We validate our method by deploying it on a quadruped robot in multiple environments and tasks, highlighting its ability to reason about them. -->
+
+<a href="https://ntnu-arl.github.io/reasoning_graph/" target="_blank"><button class="btn btn-success btn-sm">WEBSITE</button></a>
+<a href="https://arxiv.org/abs/2602.02456" target="_blank"><button class="btn btn-primary btn-sm">PAPER</button></a>
+<a href="https://github.com/ntnu-arl/reasoning_hydra" target="_blank"><button class="btn btn-info btn-sm">GITHUB</button></a>
+<a href="https://huggingface.co/datasets/ntnu-arl/reasoning-graph-dataset" target="_blank"><button class="btn btn-danger btn-sm">DATASET</button></a> 
+<a href="https://youtu.be/as_oUaFT2hE" target="_blank"><button class="btn btn-success btn-sm">VIDEO</button></a> 
+</div>
+</div>
+
+<div class="jumbotron">
+<div class="col-md-12 col-sm-12">
 <h4>Performance-driven Constrained Optimal Auto-Tuner for MPC</h4>
 
 <p align="center">
@@ -43,16 +58,13 @@ iframe {
   <img src="{{ site.url }}{{ site.baseurl }}/images/wml.png" width="170" />
 </p>
 
-A key challenge in tuning Model Predictive Control (MPC) cost function parameters is to ensure that the system performance stays consistently above a certain threshold. To address this challenge, we propose a novel method, COAT-MPC, Constrained Optimal Auto-Tuner for MPC. With every tuning iteration, COAT-MPC gathers performance data and learns by updating its posterior belief. It explores the tuning parameters' domain towards optimistic parameters in a goal-directed fashion, which is key to its sample efficiency. We theoretically analyze COAT-MPC, showing that it satisfies performance constraints with arbitrarily high probability at all times and provably converges to the optimum performance within finite time. Through comprehensive simulations and comparative analyses with a hardware platform, we demonstrate the effectiveness of COAT-MPC in comparison to classical Bayesian Optimization (BO) and other state-of-the-art methods. When applied to autonomous racing, our approach outperforms baselines in terms of constraint violations and cumulative regret over time.
+<!-- A key challenge in tuning Model Predictive Control (MPC) cost function parameters is to ensure that the system performance stays consistently above a certain threshold. To address this challenge, we propose a novel method, COAT-MPC, Constrained Optimal Auto-Tuner for MPC. With every tuning iteration, COAT-MPC gathers performance data and learns by updating its posterior belief. It explores the tuning parameters' domain towards optimistic parameters in a goal-directed fashion, which is key to its sample efficiency. We theoretically analyze COAT-MPC, showing that it satisfies performance constraints with arbitrarily high probability at all times and provably converges to the optimum performance within finite time. Through comprehensive simulations and comparative analyses with a hardware platform, we demonstrate the effectiveness of COAT-MPC in comparison to classical Bayesian Optimization (BO) and other state-of-the-art methods. When applied to autonomous racing, our approach outperforms baselines in terms of constraint violations and cumulative regret over time. -->
 
-<a href="https://example.com" target="_blank"><button class="btn btn-success btn-sm">WEBSITE</button></a>
+<a href="https://albertgassol1.github.io/coat_mpc/" target="_blank"><button class="btn btn-success btn-sm">WEBSITE</button></a>
 <a href="https://ieeexplore.ieee.org/document/10924398" target="_blank"><button class="btn btn-primary btn-sm">IEEE</button></a>
 <a href="https://arxiv.org/abs/2503.07127" target="_blank"><button class="btn btn-danger btn-sm">ARXIV</button></a> 
 <a href="https://github.com/albertgassol1/coat_mpc" target="_blank"><button class="btn btn-info btn-sm">GITHUB</button></a>
 <a href="{{ site.url }}{{ site.baseurl }}/papers/semester_project.pdf" target="_blank"><button class="btn btn-success btn-sm">THESIS</button></a> 
-
-
-
 </div>
 </div>
 
@@ -64,7 +76,7 @@ A key challenge in tuning Model Predictive Control (MPC) cost function parameter
 <img src="{{ site.url }}{{ site.baseurl }}/images/vf_nerf.png" width="100%" style="max-width:1000px"/>
 
 
-Implicit surfaces via neural radiance fields (NeRF) have
+<!-- Implicit surfaces via neural radiance fields (NeRF) have
 shown surprising accuracy in surface reconstruction. De-
 spite their success in reconstructing richly textured sur-
 faces, existing methods struggle with planar regions with
@@ -84,7 +96,7 @@ VF-NeRF can model large planar surfaces without addi-
 tional cues such as segmentations, depth or normals. Addi-
 tionally, we show that, when depth cues are available, our
 method further improves and achieves state-of-the-art re-
-sults in reconstructing indoor scenes.
+sults in reconstructing indoor scenes. -->
 
 <!-- <a href="https://example.com" target="_blank"><button class="btn btn-success btn-sm">WEBSITE</button></a> -->
 <!-- <a href="https://github.com/albertgassol1/vf_nerf" target="_blank"><button class="btn btn-info btn-sm">GIT</button></a> -->
@@ -101,7 +113,7 @@ sults in reconstructing indoor scenes.
 <img src="{{ site.url }}{{ site.baseurl }}/images/marloc.png" width="100%" style="max-width:1000px"/>
 
 
-Visual localization is crucial for Computer Vision and Augmented Reality (AR) applications, where determining the camera or device’s position and orientation is essential to accurately interact with the physical environment. Traditional methods rely on detailed 3D maps constructed using Structure from Motion (SfM) or Simultaneous Localization and Mapping (SLAM), which is computationally expensive and impractical for dynamic or large-scale environments. We introduce MARLoc, a novel localization framework for AR applications that uses known relative transformations within image sequences to perform intra-sequence triangulation, generating 3D-2D correspondences for pose estimation and refinement. MARLoc eliminates the need for pre-built SfM maps, providing accurate and efficient localization suitable for dynamic outdoor environments. Evaluation with benchmark datasets and real-world experiments demonstrates MARLoc’s state-of-the-art performance and robustness. By integrating MARLoc into an AR device, we highlight its capability to achieve precise localization in real-world outdoor scenarios, showcasing its practical effectiveness and potential to enhance visual localization in AR applications.
+<!-- Visual localization is crucial for Computer Vision and Augmented Reality (AR) applications, where determining the camera or device’s position and orientation is essential to accurately interact with the physical environment. Traditional methods rely on detailed 3D maps constructed using Structure from Motion (SfM) or Simultaneous Localization and Mapping (SLAM), which is computationally expensive and impractical for dynamic or large-scale environments. We introduce MARLoc, a novel localization framework for AR applications that uses known relative transformations within image sequences to perform intra-sequence triangulation, generating 3D-2D correspondences for pose estimation and refinement. MARLoc eliminates the need for pre-built SfM maps, providing accurate and efficient localization suitable for dynamic outdoor environments. Evaluation with benchmark datasets and real-world experiments demonstrates MARLoc’s state-of-the-art performance and robustness. By integrating MARLoc into an AR device, we highlight its capability to achieve precise localization in real-world outdoor scenarios, showcasing its practical effectiveness and potential to enhance visual localization in AR applications. -->
 
 <!-- <a href="https://example.com" target="_blank"><button class="btn btn-success btn-sm">WEBSITE</button></a> -->
 <a href="https://arxiv.org/abs/2408.17373" target="_blank"><button class="btn btn-danger btn-sm">PARXIV</button></a> 
