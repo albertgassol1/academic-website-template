@@ -22,8 +22,8 @@ years: [2024, 2025]
 </div>
 
 <div class="jumbotron">
-### Refereed journal articles
-{% bibliography --query @article %}
+### Publications
+{% bibliography --query @inproceedings %}
 </div>
 
 <!-- <div class="jumbotron">
