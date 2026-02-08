@@ -17,13 +17,13 @@ years: [2024, 2025]
 </style>
 
 <div class="jumbotron">
-### Preprints
-{% bibliography --query @unpublished %}
+### Publications
+{% bibliography --query @article %}
 </div>
 
 <div class="jumbotron">
-### Publications
-{% bibliography --query @article %}
+### Preprints
+{% bibliography --query @unpublished %}
 </div>
 
 <!-- <div class="jumbotron">
